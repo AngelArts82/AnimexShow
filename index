@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=".\ProgramacionRedes\Html\css\bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>AnimeWeb</title>
+</head>
+
+<body>
+    <navbar id="Navbar">
+        <img src="./image/logo.png" alt="" id="logo">
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Acerca de</a></li>
+            <div id="categories">
+                <li><a href="#">Categorias <i class="fas fa-caret-down"></i></a></li>
+                <div id="drop-down-box">
+                    <a href="#">Shōnen</a>
+                    <a href="#">Shojo</a>
+                    <a href="#">Seinen</a>
+                    <a href="#">Isekai</a>
+                    <a href="#">Mecha</a>
+                </div>
+            </div>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+        <div id="other-opt">
+            <div class="search">
+                <input type="search" name="search" id="search" placeholder="Search...">
+                <i class="fas fa-search"></i>
+            </div>
+            <a href="registro.html"><button id="signIn">Registrarse</button></a>
+        </div>
+        <img src="./image/menu.png" alt="Menu Png" id="Menu-Btn">
+    </navbar>
+
+    <nav id="Other-Navbar">
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Acerca de</a></li>
+            <div id="categories">
+                <li><a href="#">Categories <i class="fas fa-caret-down"></i></a></li>
+                <div id="drop-down-box">
+                    <a href="#">Shōnen</a>
+                    <a href="#">Shojo</a>
+                    <a href="#">Seinen</a>
+                    <a href="#">Isekai</a>
+                    <a href="#">Mecha</a>
+                </div>
+            </div>
+            <li><a href="#">contacto</a></li>
+        </ul>
+        <div class="Othersearch" style="margin: auto;">
+            <input type="search" name="search" id="Othersearch" placeholder="Search...">
+            <i class="fas fa-search"></i>
+        </div>
+    </nav>
+ 
+<!-- control deslizante -->
+    <div class="slides-box">
+      <!-- Contenedor -->
+        <div class="slider">
+         <!-- Contenedor de las diapositivas -->
+            <div class="slides">
+             <!-- Primera diapositiva -->
+                <div class="slide first" id="first">
+                    <!-- <img src="./image/AOT banner.jpg" alt=""> -->
+                </div>
+                <div class="slide second">
+                    <!-- <img src="./image/fate long banner.png" alt=""> -->
+                </div>
+                <div class="slide third">
+                    <!-- <img src="./image/yourname banner.jpg" alt=""> -->
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+    </div>
+<!-- control deslizante -->
+ 
+ 3
+    <!-- ALL SHOWS  -->
+    <div id="AllBanners">
+     <!-- Contenedor principal -->
+        <div id="primaryMainContainer">
+        <!-- Contenido de los banners -->
+            <div id="contentBanners">
+                   <!-- Sección para "Trending Now" -->
+                    <div id="MainContainer">
+                            <div id="Heading-box">
+                                <div class="heading">Series</div>
+                               <!-- Caja de encabezado con título y enlace "view all" -->
+                                <div class="viewAll">ver todo
+                                    <i class="fas fa-arrow-right"></i> <!-- Icono de flecha hacia la derecha -->
+                                </div>
+                           </div>
+                          <!-- Contenedor de Banners -->
+                            <div id="Banners-container">
+                            <!-- Contenido de un banner específico -->
+                                <div class="Image-Name">
+                                <!-- Imagen del banner -->
+                                    <img src="./image/fate.jpg" alt="Dragon ball CW">
+                                    <!-- Información adicional del banner -->
+                                    <span class="ep">12/11</span>
+                                    <span class="comments"><i class="fas fa-comments"></i>21</span>
+                                    <span class="watch"><i class="far fa-eye"></i> 9932</span>
+                                    <div class="content-type">
+                                        <span class="action">Accion</span>
+                                        <span class="adventure">Artes Marciales</span>
+                                    </div>
+                                    <div class="show-name">
+                                        Dragon ball CW : Cruel Word
+                                    </div>
+                                </div>
+                                <div class="Image-Name">
+                                    <img src="./image/future diary.jpg" alt="">
+                                    <span class="ep">13/11</span>
+                                    <span class="comments"><i class="fas fa-comments"></i>06</span>
+                                    <span class="watch"><i class="far fa-eye"></i> 9787</span>
+                                    <div class="content-type">
+                                        <span class="action">Accion</span>
+                                        <span class="adventure">SuperHero</span>
+                                    </div>
+                                    <div class="show-name">
+                                        Superior-Spiderman
+                                    </div>
+                                </div>
+                                <div class="Image-Name">
+                                    <img src="./image/DAB.jpg" alt="">
+                                    <span class="ep">06/05</span>
+                                    <span class="comments"><i class="fas fa-comments"></i>11</span>
+                                    <span class="watch"><i class="far fa-eye"></i> 9987</span>
+                                    <div class="content-type">
+                                        <span class="action">Accion</span>
+                                        <span class="adventure">Adventure</span>
+                                    </div>
+                                    <div class="show-name">
+                                        Shinobi
+                                    </div>
+                                </div>
+                                <div class="Image-Name">
+                                    <img src="./image/erased.jpg" alt="">
+                                    <span class="ep">28/12</span>
+                                    <span class="comments"><i class="fas fa-comments"></i>19</span>
+                                    <span class="watch"><i class="far fa-eye"></i> 8387</span>
+                                    <div class="content-type">
+                                        <span class="action">Accion</span>
+                                        <span class="adventure">Aventura</span>
+                                    </div>
+                                    <div class="show-name">
+                                        Kimetsu Yaiba
+                                    </div>
+                                </div>
+                                <div class="Image-Name">
+                                    <img src="./image/MHA.jpg" alt="">
+                                    <span class="ep">07/11</span>
+                                    <span class="comments"><i class="fas fa-comments"></i>87</span>
+                                    <span class="watch"><i class="far fa-eye"></i> 9347</span>
+                                    <div class="content-type">
+                                        <span class="action">Accion</span>
+                                        <span class="adventure">Aventura</span>
+                                    </div>
+                                    <div class="show-name">
+                                        My Hero Academia
+                                    </div>
+                                </div>
+                                <div class="Image-Name">
+                                    <img src="./image/death note.jpg" alt="">
+                                    <span class="ep">06/16</span>
+                                    <span class="comments"><i class="fas fa-comments"></i>10</span>
+                                    <span class="watch"><i class="far fa-eye"></i> 6587</span>
+                                    <div class="content-type">
+                                        <span class="action">Accion</span>
+                                        <span class="adventure">Aventura</span>
+                                    </div>
+                                    <div class="show-name">
+                                        Death Note
+                                    </div>
+                                </div>
+                            </div>
+                       </div>
+                    <!-- Tendencias actuales -->
+ 
+                    <!-- Manga  -->
+                    <div id="MainContainer">
+                        <!-- <div id="insideMainContainer"> -->
+                            <div id="Heading-box">
+                                <div class="heading">Manga</div>
+                                <div class="viewAll">ver ahora
+                                    <i class="fas fa-arrow-right"></i>
+                                </div>
+                            </div>
+ 
+                            <div id="Banners-container">
+                                <div class="Image-Name">
+                                    <img src="./image/classroom.jpg" alt="Fate stye night">
+                                    <span class="ep">06/16</span>
+                                    <span class="comments"><i class="fas fa-comments"></i>43</span>
+                                    <span class="watch"><i class="far fa-eye"></i> 9317</span>
+                                    <div class="content-type">
+                                        <span class="action">Accioon</span>
+                                        <span class="adventure">Artes Marciales</span>
+                                    </div>
+                                    <div class="show-name">
+                                        Dragon ball CW : Cruel Word
+                                    </div>
+                                </div>
+                                <div class="Image-Name">
+                                    <img src="./image/human lost.jpg" alt="">
+                                    <span class="ep">06/16</span>
+                                    <span class="comments"><i class="fas fa-comments"></i>23</span>
+                                    <span class="watch"><i class="far fa-eye"></i> 8754</span>
+                                    <div class="content-type">
+                                        <span class="action">Accion</span>
+                                        <span class="adventure">Demonios</span>
+                                    </div>
+                                    <div class="show-name">
+                                        Kimetsu no Yaiba
+                                    </div>
+                                </div>
+                                <div class="Image-Name">
+                                    <img src="./image/your lie in april.jpg" alt="">
+                                    <span class="ep">01/11</span>
+                                    <span class="comments"><i class="fas fa-comments"></i>12</span>
+                                    <span class="watch"><i class="far fa-eye"></i>7743</span>
+                                    <div class="content-type">
+                                        <span class="action">Accion</span>
+                                        <span class="adventure">Clanes</span>
+                                    </div>
+                                    <div class="show-name">
+                                        Shinobi
+                                    </div>
+                                </div>
+                                <div class="Image-Name">
+                                    <img src="./image/yourname.jpg" alt="">
+                                    <span class="ep">07/16</span>
+                                    <span class="comments"><i class="fas fa-comments"></i>03</span>
+                                    <span class="watch"><i class="far fa-eye"></i> 3247</span>
+                                    <div class="content-type">
+                                        <span class="action">Accion</span>
+                                        <span class="adventure">SuperHero</span>
+                                    </div>
+                                    <div class="show-name">
+                                        My Hero Academia : Secret-War
+                                    </div>
+                                </div>
+                                <div class="Image-Name">
+                                    <img src="./image/mugen train.jpg" alt="">
+                                    <span class="ep">01/17</span>
+                                    <span class="comments"><i class="fas fa-comments"></i>21</span>
+                                    <span class="watch"><i class="far fa-eye"></i> 4357</span>
+                                    <div class="content-type">
+                                        <span class="action">Accion</span>
+                                        <span class="adventure">Aventura</span>
+                                    </div>
+                                    <div class="show-name">
+                                        Evangelion: Secreto de Rei
+                                    </div>
+                                </div>
+                                <div class="Image-Name">
+                                    <img src="./image/AOT.jpg" alt="">
+                                    <span class="ep">04/18</span>
+                                    <span class="comments"><i class="fas fa-comments"></i>97</span>
+                                    <span class="watch"><i class="far fa-eye"></i> 3691</span>
+                                    <div class="content-type">
+                                        <span class="action">Accion</span>
+                                        <span class="adventure">Libertad</span>
+                                    </div>
+                                    <div class="show-name">
+                                        Attack on titan: Guerra contra Marley
+                                    </div>
+                                </div>
+                            </div>
+                        <!-- </div> -->
+                    </div>
+             
+                    <div id="MainContainer">
+                            <div id="Heading-box">
+                                <div class="heading">Peliculas</div>
+                                <div class="viewAll">ver todo
+                                    <i class="fas fa-arrow-right"></i>
+                                </div>
+                            </div>
+ 
+                            <div id="Banners-container">
+                                <div class="Image-Name">
+                                    <img src="./image/I want to eat you pancreas.jpg" alt="Fate stye night">
+                                    <span class="ep">02/28</span>
+                                    <span class="comments"><i class="fas fa-comments"></i>16</span>
+                                    <span class="watch"><i class="far fa-eye"></i> 4327</span>
+                                    <div class="content-type">
+                                        <span class="action">Accion</span>
+                                        <span class="adventure">Hechiceria</span>
+                                    </div>
+                                    <div class="show-name">
+                                        Jujutsu Kaisen
+                                    </div>
+                                </div>
+                                <div class="Image-Name">
+                                    <img src="./image/ne zha.jpg" alt="">
+                                    <span class="ep">02/21</span>
+                                    <span class="comments"><i class="fas fa-comments"></i>43</span>
+                                    <span class="watch"><i class="far fa-eye"></i> 3317</span>
+                                    <div class="content-type">
+                                        <span class="action">Accion</span>
+                                        <span class="adventure">Demonios</span>
+                                    </div>
+                                    <div class="show-name">
+                                        Chawsaman
+                                    </div>
+                                </div>
+                                <div class="Image-Name">
+                                    <img src="./image/MHA movie.jpg" alt="">
+                                    <span class="ep">03/18</span>
+                                    <span class="comments"><i class="fas fa-comments"></i>96</span>
+                                    <span class="watch"><i class="far fa-eye"></i> 8831</span>
+                                    <div class="content-type">
+                                        <span class="action">Accion</span>
+                                        <span class="adventure">Peleas</span>
+                                    </div>
+                                    <div class="show-name">
+                                        Shūmatsu no Valkyrie
+                                    </div>
+                                </div>
+                                <div class="Image-Name">
+                                    <img src="./image/sprirted away movie.jpg" alt="">
+                                    <span class="ep">06/16</span>
+                                    <span class="comments"><i class="fas fa-comments"></i>11</span>
+                                    <span class="watch"><i class="far fa-eye"></i> 9987</span>
+                                    <div class="content-type">
+                                        <span class="action">Accion</span>
+                                        <span class="adventure">Fantasia Oscura</span>
+                                    </div>
+                                    <div class="show-name">
+                                        Berserker
+                                    </div>
+                                </div>
+                                <div class="Image-Name">
+                                    <img src="./image/AOT movie.jpg" alt="">
+                                    <span class="ep">09/19</span>
+                                    <span class="comments"><i class="fas fa-comments"></i>29</span>
+                                    <span class="watch"><i class="far fa-eye"></i> 5217</span>
+                                    <div class="content-type">
+                                        <span class="action">Accion</span>
+                                        <span class="adventure">Caballeros</span>
+                                    </div>
+                                    <div class="show-name">
+                                        Saint seiya : lost canvas
+                                    </div>
+                                </div>
+                                <div class="Image-Name">
+                                    <img src="./image/Nuevo Lienzo.jpg" alt="">
+                                    <span class="ep">08/16</span>
+                                    <span class="comments"><i class="fas fa-comments"></i>09</span>
+                                    <span class="watch"><i class="far fa-eye"></i> 9834</span>
+                                    <div class="content-type">
+                                        <span class="action">Accion</span>
+                                        <span class="adventure">Escolar</span>
+                                    </div>
+                                    <div class="show-name">
+                                        Assassination Classroom
+                                    </div>
+                                </div>
+                            </div>
+                        <!-- </div> -->
+                    </div>
+ 
+            </div>
+       
+            <!-- últimas novedades -->
+            <div id="LatestNews">
+                <div id="LatestNewsSection">
+                    <div id="insideLatestNews">
+ 
+                        <div id="Heading-box2">
+                            <div class="headingInNews">Ultimas novedades</div>
+                            <div class="viewAllInNews">ver todo
+                                <i class="fas fa-arrow-right"></i>
+                            </div>
+                        </div>
+                     
+                    <div id="LatestNewses">
+                        <div id="ImageOfNews" style="margin: 0;">
+                            <span class="epInNews">03/16</span>
+                                <span class="watchInNews"><i class="far fa-eye"></i> 8457</span>
+                            <img src="./image/boruto wide banner.jpg" alt="">
+                            <span class="name">
+                                Shinobi : Las 5 Naciones
+                            </span>
+                        </div>
+                        <div id="ImageOfNews">
+                            <span class="epInNews">04/10</span>
+                                <span class="watchInNews"><i class="far fa-eye"></i> 9357</span>
+                            <img src="./image/erased wide banner.jpg" alt="">
+                            <span class="name">
+                                Dragon Ball Super SuperHero
+                            </span>
+                        </div>
+                        <div id="ImageOfNews">
+                            <span class="epInNews">04/17</span>
+                                <span class="watchInNews"><i class="far fa-eye"></i> 3457</span>
+                            <img src="./image/MHA banner.jpg" alt="">
+                            <span class="name">
+                                My Hero Acadmia : The Movie
+                            </span>
+                        </div>
+                        <div id="ImageOfNews">
+                            <span class="epInNews">08/13</span>
+                                <span class="watchInNews"><i class="far fa-eye"></i> 4097</span>
+                            <img src="./image/mugen train wide banner.jpg" alt="">
+                            <span class="name">
+                                Nanatsu No Taizai : Guerra Santa
+                            </span>
+                        </div>
+                        <div id="ImageOfNews">
+                            <span class="epInNews">04/14</span>
+                                <span class="watchInNews"><i class="far fa-eye"></i> 7531</span>
+                            <img src="./image/classroom wide banner.jpg" alt="">
+                            <span class="name">
+                                Shingeki no Kyiojin :Caida de Shinganshina
+                            </span>
+                        </div>
+                        <div id="ImageOfNews">
+                            <span class="epInNews">05/11</span>
+                                <span class="watchInNews"><i class="far fa-eye"></i> 6587</span>
+                            <img src="./image/death note wide banner.jpg" alt="">
+                            <span class="name">
+                                Death Note : Kira
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Latest News -->
+ 
+        </div>
+    </div>
+ 
+    </div>
+<!-- ALL SHOWS  -->
+<!-- Enlaces a archivos JavaScript de Bootstrap -->
+    <script src=".\ProgramacionRedes\Html\js\jquery.slim.min.js"></script>
+    <script src=".\ProgramacionRedes\Html\js\popper.min.js"></script>
+    <script src=".\ProgramacionRedes\Html\js\bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
